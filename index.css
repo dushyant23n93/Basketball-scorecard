@@ -1,0 +1,61 @@
+@font-face{
+	src: url("fonts/digital-7.ttf");
+	font-family: digitalFont;
+}
+body{
+	margin: 0;
+	background:  #E5E5E5;
+}
+.container{
+	width: 575px;
+	height: 385px;
+	margin: 120px auto;
+	background: #1B244A;
+	padding: 70px 80px;
+	display: flex;
+	justify-content: space-around;
+	text-align : center;
+}
+
+h3{
+	font-family: Verdana, sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+	color: #EEEEEE;
+}
+.score{
+	margin-top:0;
+	width: 155px;
+	height: 120px;
+	background: #000000;
+	border-radius: 5px;
+}
+#home, #guest{
+	margin: 0;
+	padding:20px;
+	font-family: digitalFont, serif;
+ 	font-size: 90px;
+	font-weight: 400;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #F94F6D;
+}
+.btn-container{
+	margin-top : 26px;
+	width: 155px;
+	height: 45px;
+	padding:0;
+}
+.incr-btn{
+	margin:0;
+	width: 45px;
+	height: 45px;
+	font-size: 25px;
+	font-weight: 400;
+	font-family: digitalFont, serif;
+	background:#1B244A;
+	color:#9AABD8;
+	border: 2px solid #9AABD8;
+	border-radius: 2px;
+}
